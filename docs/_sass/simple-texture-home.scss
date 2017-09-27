@@ -80,7 +80,18 @@ textarea {
 }
 
 #section0 {
-    background: url('../images/theme/noisy_texture_section0-200x200.png') repeat 0 0 #F0F0F0;
+    #background: url('../images/theme/noisy_texture_section0-200x200.png') repeat 0 0 #F0F0F0;
+    background-image: url('../images/screenshots/home.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+@media only screen and (max-width: 767px){
+	#section0{
+		background-image: url('../images/screenshots/post.png');
+	}
 }
 
 #section1 {
